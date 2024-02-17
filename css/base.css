@@ -1,1 +1,30 @@
 @import "./reset.css";
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #484848;
+}
+
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
