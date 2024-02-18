@@ -1,0 +1,25 @@
+.btn,
+a.btn {
+  display: inline-block;
+  padding: 13px 50px;
+  background-color: #01996d;
+  border-radius: 4px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+  background-color: rgba(1, 153, 110, 0.8);
+  color: #fff;
+}
+
+.btn-big,
+a.btn-big {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
