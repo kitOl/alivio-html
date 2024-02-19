@@ -23,3 +23,10 @@ a.btn-big {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+@media (max-width: 991px) {
+  .btn-big,
+  a.btn-big {
+    padding: 15px 30px;
+  }
+}

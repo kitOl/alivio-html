@@ -22,8 +22,6 @@
 .home-text {
   max-width: 420px;
   min-height: 123px;
-  /* margin-bottom: 18px; */
-  font-size: 20px;
   line-height: 144.5%;
 }
 
@@ -38,11 +36,32 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(250, 241, 229);
+  /* background-color: rgb(250, 241, 229); */
+  background-color: rgba(241, 243, 240, 0.8);
 }
 
 .home-bg-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .home {
+    padding: 40px 0;
+    min-height: unset;
+  }
+
+  .home-heading {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+
+  .home-text + * {
+    margin-top: 10px;
+  }
+
+  .home-bg-img {
+    opacity: 0.5;
+  }
 }
