@@ -1,0 +1,60 @@
+.card {
+  width: 296px;
+  /* height: 294px; */
+  padding: 22px 20px 30px;
+  background-color: #fff;
+  border-radius: 4px;
+
+  box-shadow: 0 4px 18px 0 rgba(165, 165, 165, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #000;
+}
+
+.card-title {
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 7px;
+  margin-bottom: 14px;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  left: -7px;
+  right: -7px;
+  bottom: 0px;
+  height: 0.75px;
+  background-color: #000;
+}
+
+.card-avatar {
+  margin-bottom: 20px;
+}
+
+.card-content {
+  text-align: left;
+  padding-left: 6px;
+}
+
+.card-content-title {
+  margin-bottom: 16px;
+  font-family: "Georgia", serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card ul {
+  font-size: 10.62px;
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #000;
+}
+
+.card ul li + li {
+  margin-top: 16px;
+}
