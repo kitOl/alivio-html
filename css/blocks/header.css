@@ -56,3 +56,28 @@
 .header-login-link:hover {
   color: #01996d;
 }
+
+@media (max-width: 1199px) {
+  .header-row {
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    margin-right: 72px;
+  }
+
+  .header-nav ul {
+    gap: 35px;
+  }
+
+  .header-login {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-nav,
+  .header-login {
+    display: none;
+  }
+}

@@ -37,19 +37,11 @@
   margin-top: 57px;
 }
 
-.story-btn {
-}
-
 .story-video {
+  border-radius: 16px;
+  overflow: hidden;
   width: 895px;
   position: relative;
-}
-
-.story-video img {
-  border-radius: 16px;
-}
-
-.story-video-object {
 }
 
 .story-video-btn {
