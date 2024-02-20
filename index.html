@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/blocks/card.css" />
     <link rel="stylesheet" href="./css/blocks/avatar.css" />
     <link rel="stylesheet" href="./css/blocks/footer.css" />
+    <link rel="stylesheet" href="./css/blocks/mobile-nav-button.css" />
+    <link rel="stylesheet" href="./css/blocks/mobile-nav.css" />
     <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
     <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
   </head>
@@ -34,12 +36,33 @@
             <a class="header-login-link" href="#!">Sign in</a>
             <a class="btn" href="#!">Start Trial</a>
           </div>
+
+          <button type="button" class="mobile-nav-button active">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
         </div>
       </div>
     </header>
 
+    <div class="mobile-nav">
+      <img class="mobile-nav-logo" src="./img/logo.svg" alt="Logo" />
+      <nav class="mobile-nav-list">
+        <ul>
+          <li><a href="#!">Why Alivio</a></li>
+          <li><a href="#!">Solutions</a></li>
+          <li><a href="#!">Community</a></li>
+          <li><a href="#!">Pricing</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-login">
+        <a class="mobile-login-link" href="#!">Sign in</a>
+        <a class="btn btn-big" href="#!">Start Trial</a>
+      </div>
+    </div>
+
     <main>
-      <section class="home none">
+      <section class="home none-">
         <div class="container">
           <div class="home-content">
             <h1 class="home-heading">Be aware, Manage well.</h1>
@@ -60,7 +83,7 @@
         </div>
       </section>
 
-      <section class="how-it-works none">
+      <section class="how-it-works none-">
         <div class="container">
           <div class="how-it-works-header">
             <div class="how-it-works-header-head">
@@ -137,7 +160,7 @@
         </div>
       </section>
 
-      <section class="story none">
+      <section class="story none-">
         <div class="container container-big">
           <div class="story-row">
             <div class="story-content">
@@ -167,7 +190,7 @@
         </div>
       </section>
 
-      <section class="product none">
+      <section class="product none-">
         <div class="container">
           <div class="product-row">
             <div class="product-img-wrapper">
@@ -236,5 +259,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
