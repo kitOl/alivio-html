@@ -35,6 +35,12 @@ body {
   max-width: 1537px;
 }
 
+@media (max-width: 1535px) {
+  .container-big {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1399px) {
   .container {
     width: 100%;
