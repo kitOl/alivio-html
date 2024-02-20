@@ -58,3 +58,11 @@
 .card ul li + li {
   margin-top: 16px;
 }
+
+@media (max-width: 500px) {
+  .card {
+    max-width: 270px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
