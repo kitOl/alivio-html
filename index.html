@@ -175,16 +175,26 @@
               </div>
             </div>
             <div class="story-video">
-              <div class="story-video-overlay">
-                <button class="story-video-btn">
-                  <img src="./img/story/play-btn.svg" alt="Play video" />
+              <div id="video-story-overlay" class="story-video-overlay">
+                <button id="video-story-btn" class="story-video-btn">
+                  <img
+                    id="video-story-btn-icon"
+                    width="82"
+                    height="82"
+                    src="./img/story/play-btn.svg"
+                    alt="Play video"
+                  />
                 </button>
               </div>
-              <img
+              <!-- <img
                 src="./img/story/cover-video.jpg"
                 alt="Story video"
                 class="story-video-object"
-              />
+              /> -->
+
+              <video class="story-video-object" id="video-story">
+                <source src="./video/wooman-laptop.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </div>
